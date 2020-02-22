@@ -47,5 +47,4 @@ export default class Entry extends Vue {
         flex 0 0 10em
         padding-left 0.5em
         padding-bottom 1.5em
-    
 </style>

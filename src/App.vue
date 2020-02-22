@@ -39,7 +39,7 @@ export default class App extends Vue {
             .then(text => {
                 this.csv = parse(text, {columns: ["question", "answer"]})
             })
-            .catch(() => alert("2列のcsvファイルのみ読み込むことができます。"))
+            .catch(err => alert(`${err}\nTips: 2列のcsvファイルのみ読み込むことができます。`))
     }
 }
 </script>

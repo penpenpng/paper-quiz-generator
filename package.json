@@ -16,9 +16,11 @@
   "license": "ISC",
   "dependencies": {
     "csv-parse": "^4.8.5",
+    "encoding-japanese": "^1.0.30",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@types/encoding-japanese": "^1.0.15",
     "@types/webpack-env": "^1.15.1",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
