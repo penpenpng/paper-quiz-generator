@@ -5,6 +5,7 @@
         "strict": true,
         "moduleResolution": "node",
         "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
         "types": [
             "webpack-env"
@@ -13,7 +14,9 @@
             "./node_modules/@types",
             "./src/types"
         ],
-        "paths": {},
+        "paths": {
+            "@/*": ["src/*"]
+        },
         "lib": [
             "esnext",
             "dom",

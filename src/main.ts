@@ -1,7 +1,7 @@
 import Vue from "vue"
 import App from "./App.vue"
 
-import "@assets/style/index.stylus"
+import "@/assets/style/index.stylus"
 
 Vue.config.productionTip = false
 

@@ -76,8 +76,7 @@ module.exports = {
     resolve: {
         extensions: [".js", ".ts", ".vue"],
         alias: {
-            "@assets": Path.resolve(src, "assets"),
-            "@components": Path.resolve(src, "components"),
+            "@": src,
         },
     },
     devServer: {

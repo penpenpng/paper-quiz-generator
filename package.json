@@ -1,16 +1,21 @@
 {
-  "name": "vue-project-template",
-  "version": "1.0.0",
-  "description": "2020.2. vue (with pug + typescript + stylus), eslint, webpack, dev-server",
+  "name": "paper-quiz-generator",
+  "version": "0.0.1",
+  "description": "convert csv containing quizes into printable html",
   "main": "index.js",
   "scripts": {
     "debug": "webpack-dev-server --inline --hot --open",
     "build": "webpack --mode=production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/penpenpng/paper-quiz-generator.git"
+  },
   "keywords": [],
   "author": "penpenpng",
   "license": "ISC",
   "dependencies": {
+    "csv-parse": "^4.8.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
